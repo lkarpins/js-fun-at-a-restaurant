@@ -9,8 +9,8 @@ function refundOrder(orderNum, deliveryOrders)  {
 for (var i = 0; i < deliveryOrders.length; i++) {
   if (deliveryOrders[i].orderNumber === orderNum){
     deliveryOrders.splice(i, 1);
+    }
   }
-}
 };
 
 function listItems (deliveryOrders) {
